@@ -1,13 +1,12 @@
-package com.niu;
+package org.sang;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootMutiJpaApplication {
+public class MutijpaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootMutiJpaApplication.class, args);
+		SpringApplication.run(MutijpaApplication.class, args);
 	}
-
 }
